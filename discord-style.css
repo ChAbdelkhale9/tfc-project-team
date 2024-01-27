@@ -16,7 +16,7 @@
   font-family: 'ABC ginto';
   font-style: normal;
   font-weight: bolder;
-  src: url('./assets/fonts/ginto\ABCGintoNord-Bold.otf') ;
+  src: url('./assets/fonts/ginto/ABCGintoNord-Bold.otf') ;
 }
 
 body {
