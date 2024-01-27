@@ -12,7 +12,12 @@
   src: url('./assets/fonts/gg-sans/gg\ sans\ Regular.ttf') ;
 }
 
-
+@font-face {
+  font-family: 'ABC ginto';
+  font-style: normal;
+  font-weight: bolder;
+  src: url('./assets/fonts/\ginto\ABCGintoNord-Bold.otf') ;
+}
 
 body {
   margin: 0;
@@ -107,7 +112,7 @@ main img {
 }
 
 .head-title {
-  font-family: 'gg sans bold';
+  font-family: 'ABC ginto';
   font-size: 65px;
   margin-bottom: 16px;
   line-height: 120%;
