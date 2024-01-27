@@ -16,7 +16,7 @@
   font-family: 'ABC ginto';
   font-style: normal;
   font-weight: bolder;
-  src: url('./assets/fonts/\ginto\ABCGintoNord-Bold.otf') ;
+  src: url('./assets/fonts/ginto\ABCGintoNord-Bold.otf') ;
 }
 
 body {
@@ -29,6 +29,9 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgb(64, 78, 237);
+  background-image: url('assets/backgroundImages.svg');
+  background-size: cover;
+  background-position: center center;
 }
 
 header {
@@ -76,12 +79,6 @@ main {
   width: 1400px;
   justify-content: center;
   display: flex;
-  background-image: url('assets/backgroundImages.svg');
-  /* Replace with the actual path to your image */
-  background-size: cover;
-  /* Adjust as needed */
-  background-position: center center;
-
 }
 
 main img {
