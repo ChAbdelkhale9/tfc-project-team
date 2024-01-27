@@ -2,14 +2,14 @@
   font-family: 'gg sans Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('gg sans Bold'), url('gg-sans-Bold.woff') format('woff');
+  src: url('./assets/fonts/gg-sans/gg\ sans\ Bold.ttf') ;
 }
 
 @font-face {
   font-family: 'gg sans Normal Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('gg sans Normal Regular'), url('gg-sans-Regular.woff') format('woff');
+  src: url('./assets/fonts/gg-sans/gg\ sans\ Regular.ttf') ;
 }
 
 
@@ -44,7 +44,7 @@ header {
 }
 
 a {
-  font-family: 'gg sans medium';
+  font-family: "gg sans Normal Regular", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   padding: 0 18px;
 }
@@ -119,9 +119,10 @@ main img {
 .head-description {
   width: 750px;
   align-self: center;
-  text-align: justify;
+  text-align: center;
+
   color: white;
-  font-family: 'gg sans normal';
+  font-family: "gg sans Normal Regular", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .buttons {
